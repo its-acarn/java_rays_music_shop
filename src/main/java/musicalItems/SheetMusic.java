@@ -1,4 +1,5 @@
 package musicalItems;
 
-public class SheetMusic {
+public class SheetMusic extends Item {
+
 }
