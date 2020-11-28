@@ -1,2 +1,4 @@
-package musicalItems;public class item {
+package musicalItems;
+
+public abstract class item {
 }

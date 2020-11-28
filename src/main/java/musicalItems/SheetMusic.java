@@ -1,2 +1,4 @@
-package musicalItems;public class SheetMusic {
+package musicalItems;
+
+public class SheetMusic {
 }

@@ -1,2 +1,4 @@
-package instruments.materials;public class wood {
+package materials;
+
+public class wood {
 }
