@@ -1,9 +1,9 @@
 package instruments;
 
+import interfaces.IBuySell;
 import materials.Material;
-import interfaces.IBuyable;
 
-public abstract class Instrument implements IBuyable {
+public abstract class Instrument implements IBuySell {
 
     private String make;
     private String model;

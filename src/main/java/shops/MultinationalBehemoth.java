@@ -3,7 +3,7 @@ package shops;
 import interfaces.IBuySell;
 import java.util.ArrayList;
 
-public abstract class MultinationalBehemoth {
+public class MultinationalBehemoth {
 
     private String name;
     private String location;
@@ -31,5 +31,9 @@ public abstract class MultinationalBehemoth {
 
     public int getTill() {
         return this.till;
+    }
+
+    public void addStock(IBuySell item) {
+        stock.add(item);
     }
 }
